@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 9);
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 45px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li {
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.slika {
+    height: 500px;
+    width: 100%;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.762), rgba(0, 0, 0, 0.066)),
+        url(images/re\ \(1\).png); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.tekst p {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.dio1 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.dio1 p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dio2 p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.tekst1 h3{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.tekst2 h3{
+    color: white;
+    margin: 0 auto;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.slika1, .tekst1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slika1 img {
+    width: 50%;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.tekst1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 50%;
+    align-items: center;
+}
+
+.dio2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.slika2, .tekst2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slika2 img {
+    width: 50%;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.tekst2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    width: 110px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-color: rgb(30, 28, 28);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.naslov{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ivo{
+    padding-top: 10px;
+    padding-left: 580px;
+}
+
+.dio3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.dio3 div {
+    flex: 1;
+}
+
+.dio3 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dio3 h3 {
+    color: white;
+    margin-top: 10px; 
+}
+
+.dio3 p {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+  
+.broken-line {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, rgb(250, 250, 210), transparent,rgb(250, 250, 210));
+    box-shadow: 0 0 10px rgb(250, 250, 210); 
+}
+  
+.b {
+    text-align: center; 
+  }
+  
+.bt1 {
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid ;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+button:hover {
+    box-shadow: 0 0 10px rgb(250, 250, 210);
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.recenzije {
+    height: 500px;
+    width: 100%;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.762), rgba(0, 0, 0, 0.066)),
+        url(images/kupola.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box{
+    background-color: rgb(0,0,0,0.445);
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.box h2{
+    background-color: transparent;
+}
+
+.box p{
+    background-color: transparent;
+    font-size:small ;
+}
+
+.sve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    background-color: transparent;
+    margin: auto;
+}
+
+.sve p {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prvi, .drugi, .treci {
+    background-color: transparent;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.682);
+    
+}
+
+.potpis{
+    background-color: transparent;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(9, 9, 9);
+    color: rgba(167, 152, 68, 0.842);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+}
+
+.f1{
+    text-align: left;
+}
+
+.f1 h5{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.f1 p{
+    padding: 5px;
+}
+
+.f2{
+    padding-right: 50px;
+}
+
+.f3 h5{
+    padding-bottom: 10px;
+}
+
+.f2 img{
+    width: 100px;
+}
+
+.a{
+    display: flex;
+    padding: 5px;
+}
+
+.a p{
+    margin-left: 10px;
+}
